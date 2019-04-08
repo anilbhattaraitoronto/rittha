@@ -1,0 +1,26 @@
+{
+    "name": "rittha",
+    "version": "1.0.0",
+    "description": "rittha soap site",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "devStart": "nodemon server.js"
+    },
+    "keywords": [
+        "soap",
+        "site"
+    ],
+    "author": "Anil",
+    "license": "MIT",
+    "dependencies": {
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "express-ejs-layouts": "^2.5.0",
+        "mongoose": "^5.4.22"
+    },
+    "devDependencies": {
+        "dotenv": "^7.0.0",
+        "nodemon": "^1.18.10"
+    }
+}

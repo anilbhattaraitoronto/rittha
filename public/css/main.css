@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-nav{
+    display: flex;
+    justify-content: right;
+    background: lightgray;
+}
+.main-nav a{
+    text-decoration: none;
+    padding: 5px 16px;
+    color: green;
+    cursor: pointer;
+}
+.main-nav a:hover{
+    color: darkgoldenrod;
+}
+.masthead {
+    text-decoration: none;
+    text-align: center;
+    background: green;
+    padding: 40px 0;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.masthead a{
+    text-decoration: none;
+    color: white;
+}
+
+.page-title{
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+.wrapper{
+    width: 95%;
+    max-width: 1200px;
+    margin: 2px auto;
+    background: lightgray;
+}
